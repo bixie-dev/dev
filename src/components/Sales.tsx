@@ -1,12 +1,12 @@
 import React, { FC, HTMLProps, ReactNode } from "react";
 
 interface PropsChildren extends HTMLProps<HTMLInputElement> {
-  children: ReactNode & { sale_name: string; price: number };
+  children: any & { sale_name: string; price: number };
 }
 
 interface PropsTb extends HTMLProps<HTMLInputElement> {
-  tb: ReactNode & {
-    construction: ReactNode & {
+  tb: any & {
+    construction: any & {
       street: string;
       city: string;
       country: string;
@@ -29,7 +29,6 @@ const SalesChoose: FC<PropsChildren> = ({ children }) => {
 
 const SalesTb: FC<PropsTb> = ({ tb }) => {
   return (
-    <>
       <tr className="border-y-2 border-[#4269E1]">
         <td>
           <div>{tb.construction.street}</div>
@@ -41,7 +40,6 @@ const SalesTb: FC<PropsTb> = ({ tb }) => {
         <td>{tb.e_costs}</td>
         <td>{tb.profit}</td>
       </tr>
-    </>
   );
 };
 

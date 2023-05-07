@@ -1,7 +1,7 @@
 import React, { FC, HTMLProps, ReactNode } from "react";
 
 interface PropsPro extends HTMLProps<HTMLInputElement> {
-  children: ReactNode & {
+  children: any & {
     per_name: string;
     job_title: string;
     mobile_num: string;
@@ -12,7 +12,7 @@ interface PropsPro extends HTMLProps<HTMLInputElement> {
   };
 }
 interface PropsTb extends HTMLProps<HTMLInputElement> {
-  tb: ReactNode & {
+  tb: any & {
     date: Date;
     construction: string;
     total_num: number;

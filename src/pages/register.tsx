@@ -8,33 +8,33 @@ const Register = () => {
           <div className="flex w-[700px] justify-between">
             <input
               type="text"
-              className=" w-[330px] h-[60px] rounded-[16px] text-[16px] pl-3 left placeholder:text-slate-400 block bg-white w-full border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              className=" w-[330px] h-[60px] rounded-[16px] text-[16px] pl-3 left placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
               placeholder="Nachname"
             />
             <input
               type="text"
-              className="w-[330px] h-[60px] rounded-[16px] text-[16px] pl-3 justify-end placeholder:text-slate-400 block bg-white w-full border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              className="w-[330px] h-[60px] rounded-[16px] text-[16px] pl-3 justify-end placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
               placeholder="Vonname"
             />
           </div>
           <input
             type="text"
-            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
             placeholder="Firmenname"
           />
           <input
             type="text"
-            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
             placeholder="Email"
           />
           <input
             type="text"
-            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
             placeholder="Passwort"
           />
           <input
             type="text"
-            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+            className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
             placeholder="Passwort wiederholen"
           />
         </div>

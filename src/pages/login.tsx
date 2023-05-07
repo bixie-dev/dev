@@ -18,14 +18,14 @@ const Login = () => {
             <div className="pb-12">
               <input
                 type="text"
-                className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+                className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 border-0 placeholder:text-slate-400 block bg-white  border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
                 placeholder="Dein Unsername"
               ></input>
             </div>
             <div className="pb-2">
               <input
                 type="text"
-                className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+                className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-3 border-0 placeholder:text-slate-400 block bg-white  border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
                 placeholder="Dein Passwort"
               ></input>
             </div>
@@ -81,7 +81,7 @@ const Login = () => {
           <div className="pb-12">
             <input
               type="text"
-              className="w-[700px] h-[60px] rounded-[16px] text-[20px] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+              className="w-[700px] h-[60px] rounded-[16px] text-[16px] pl-6 placeholder:text-slate-400 block bg-white border-0 border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
               placeholder="Dein Passwort"
             ></input>
           </div>

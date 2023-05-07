@@ -5,9 +5,14 @@ interface PropsChildren extends HTMLProps<HTMLInputElement> {
   children: ReactNode;
 }
 interface PropsTb extends HTMLProps<HTMLInputElement> {
-  tb: ReactNode & { street: string, city: string, country: string, first_name: string, last_name: string };
+  tb: any & {
+    street: string;
+    city: string;
+    country: string;
+    first_name: string;
+    last_name: string;
+  };
 }
-
 
 const SponLocation: FC<PropsChildren> = ({ children }) => {
   return (
@@ -57,7 +62,7 @@ const SponLocation: FC<PropsChildren> = ({ children }) => {
         </span>
       </div>
     </>
-  )
+  );
 };
 
 const SponTableBody: FC<PropsTb> = ({ tb }) => {
@@ -72,14 +77,30 @@ const SponTableBody: FC<PropsTb> = ({ tb }) => {
         <td className="border-t-2 border-[#000000]">{tb.first_name}</td>
         <td className="border-t-2 border-[#000000]">{tb.last_name}</td>
         <td className="pl-4">
-          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 26.25C17.6027 26.25 20.125 25.3475 22.1369 23.6964C24.1489 22.0452 25.5261 19.7475 26.0338 17.1948C26.5416 14.642 26.1485 11.9922 24.9216 9.69679C23.6947 7.40137 21.7098 5.60238 19.3052 4.60636C16.9006 3.61033 14.225 3.47888 11.7343 4.23442C9.24363 4.98996 7.09198 6.58573 5.64597 8.74983C4.19996 10.9139 3.54906 13.5125 3.80417 16.1027C4.05928 18.6929 5.20463 21.1145 7.04505 22.9549" stroke="#42E165" stroke-width="2" stroke-linecap="round" />
-            <path d="M20 12.5L15.152 18.3175C14.4965 19.1042 14.1687 19.4976 13.7281 19.5176C13.2875 19.5375 12.9255 19.1755 12.2014 18.4514L10 16.25" stroke="#42E165" stroke-width="2" stroke-linecap="round" />
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 26.25C17.6027 26.25 20.125 25.3475 22.1369 23.6964C24.1489 22.0452 25.5261 19.7475 26.0338 17.1948C26.5416 14.642 26.1485 11.9922 24.9216 9.69679C23.6947 7.40137 21.7098 5.60238 19.3052 4.60636C16.9006 3.61033 14.225 3.47888 11.7343 4.23442C9.24363 4.98996 7.09198 6.58573 5.64597 8.74983C4.19996 10.9139 3.54906 13.5125 3.80417 16.1027C4.05928 18.6929 5.20463 21.1145 7.04505 22.9549"
+              stroke="#42E165"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+            <path
+              d="M20 12.5L15.152 18.3175C14.4965 19.1042 14.1687 19.4976 13.7281 19.5176C13.2875 19.5375 12.9255 19.1755 12.2014 18.4514L10 16.25"
+              stroke="#42E165"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
           </svg>
         </td>
       </tr>
     </>
-  )
-}
+  );
+};
 
 export { SponLocation, SponTableBody };

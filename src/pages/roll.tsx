@@ -13,14 +13,18 @@ const Roll = () => {
       <div className="flex grid-cols-2 gap-24 px-24 h-[550px]">
         <div className="p-8 w-full h-full rounded-[24px] bg-white drop-shadow-lg">
           <table className="w-full">
-            <tr className="text-[20px] text-left">
-              <th>Rollenbezeichnung</th>
-              <th className="text-center">Anzahl</th>
-              <th></th>
-              <th></th>
-              <th></th>
-            </tr>
-            <RoleTb tb={{ role: "Vorarbeiter", num: 3 }} />
+            <thead>
+              <tr className="text-[20px] text-left">
+                <th>Rollenbezeichnung</th>
+                <th className="text-center">Anzahl</th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <RoleTb tb={{ role: "Vorarbeiter", num: 3 }} />
+            </tbody>
           </table>
         </div>
         <div className="p-8 w-full h-full rounded-[24px] bg-white drop-shadow-lg flex flex-col items-center">
@@ -28,15 +32,16 @@ const Roll = () => {
             Rollenbezeichnung
           </div>
           <div className="w-[70%] mb-12 grid gap-6">
-            
-          <RoleDs children={"Funktion 1"}/>
-          <RoleDs children={"Funktion 1"}/>
-          <RoleDs children={"Funktion 1"}/>
-          <RoleDs children={"Funktion 1"}/>
-          <RoleDs children={"Funktion 1"}/>
-          <RoleDs children={"Funktion 1"}/>
+            <RoleDs children={"Funktion 1"} />
+            <RoleDs children={"Funktion 1"} />
+            <RoleDs children={"Funktion 1"} />
+            <RoleDs children={"Funktion 1"} />
+            <RoleDs children={"Funktion 1"} />
+            <RoleDs children={"Funktion 1"} />
           </div>
-            <button className="w-[70%] h-[10%] bg-[#4269E1] text-white rounded-[12px]">Hinzufügen</button>
+          <button className="w-[70%] h-[10%] bg-[#4269E1] text-white rounded-[12px]">
+            Hinzufügen
+          </button>
         </div>
       </div>
     </div>

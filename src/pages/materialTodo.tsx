@@ -16,7 +16,7 @@ const Material = () => {
             <div className="mb-2">
               <input
                 type="text"
-                className="h-[50px] rounded-[12px] text-[12px] font-[500] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+                className="h-[50px] rounded-[12px] text-[12px] font-[500] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
                 placeholder="Suchen..."
               ></input>
             </div>

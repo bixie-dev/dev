@@ -15,7 +15,7 @@ const Material = () => {
             <div className="mb-2">
               <input
                 type="text"
-                className="h-[50px] rounded-[12px] text-[12px] font-[500] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
+                className="h-[50px] rounded-[12px] text-[12px] font-[500] pl-3 placeholder:text-slate-400 block bg-white w-full border border-slate-300 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1"
                 placeholder="Suchen..."
               />
             </div>
@@ -101,16 +101,52 @@ const Material = () => {
           </div>
           <div className="text-[14px]">
             <table className="w-full">
-              <tr className="text-[20px] text-left">
-                <th>Vorhaben</th>
-                <th>Vorname</th>
-                <th>Nachname</th>
-                <th></th>
-              </tr>
-              <SponTableBody tb={{ street: "Bruchhausenerstraße 36", city: "59759 Arnsberg", country: "Germany", first_name: "David", last_name: "David" }} />
-              <SponTableBody tb={{ street: "Bruchhausenerstraße 36", city: "59759 Arnsberg", country: "Germany", first_name: "David", last_name: "David" }} />
-              <SponTableBody tb={{ street: "Bruchhausenerstraße 36", city: "59759 Arnsberg", country: "Germany", first_name: "David", last_name: "David" }} />
-              <SponTableBody tb={{ street: "Bruchhausenerstraße 36", city: "59759 Arnsberg", country: "Germany", first_name: "David", last_name: "David" }} />
+              <thead>
+                <tr className="text-[20px] text-left">
+                  <th>Vorhaben</th>
+                  <th>Vorname</th>
+                  <th>Nachname</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <SponTableBody
+                  tb={{
+                    street: "Bruchhausenerstraße 36",
+                    city: "59759 Arnsberg",
+                    country: "Germany",
+                    first_name: "David",
+                    last_name: "David",
+                  }}
+                />
+                <SponTableBody
+                  tb={{
+                    street: "Bruchhausenerstraße 36",
+                    city: "59759 Arnsberg",
+                    country: "Germany",
+                    first_name: "David",
+                    last_name: "David",
+                  }}
+                />
+                <SponTableBody
+                  tb={{
+                    street: "Bruchhausenerstraße 36",
+                    city: "59759 Arnsberg",
+                    country: "Germany",
+                    first_name: "David",
+                    last_name: "David",
+                  }}
+                />
+                <SponTableBody
+                  tb={{
+                    street: "Bruchhausenerstraße 36",
+                    city: "59759 Arnsberg",
+                    country: "Germany",
+                    first_name: "David",
+                    last_name: "David",
+                  }}
+                />
+              </tbody>
             </table>
           </div>
         </div>
