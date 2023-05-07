@@ -108,7 +108,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">
@@ -140,7 +140,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">
@@ -172,7 +172,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">
@@ -204,7 +204,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">
@@ -236,7 +236,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">
@@ -268,7 +268,7 @@ const AddEmployee = () => {
             <input
               type="text"
               className="w-[100px] h-[60px] rounded-[16px]  text-center placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 mx-2"
-              placeholder="5000, 00 €"
+              placeholder="5000, 00€"
             ></input>
 
             <button className="w-[59px] h-[59px] bg-[rgba(66,105,225,1)] text-white rounded-[8px] h-16 text-align-center mb-8 flex justify-center items-center mx-2">

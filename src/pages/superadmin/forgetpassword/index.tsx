@@ -1,7 +1,7 @@
 /* eslint-disable */
 const ForgetPassword = () => {
   return (
-    <div className="container">
+    <div className="">
       <div className="flex flex-col items-center mt-12 max-w-500">
         <div className="w-[150px] h-[150px]">
           <svg

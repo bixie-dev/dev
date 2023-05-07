@@ -5,7 +5,7 @@ const Login = () => {
   const [flag, setFlag] = useState(true);
 
   return (
-    <div className="container">
+    <div className="">
       <div className="flex flex-col items-center mt-12">
         <div className="w-[150px] h-[150px]">
           <svg
