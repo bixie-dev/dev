@@ -70,3 +70,16 @@
 .toggleTabBox.isOpen .second-tab {
   opacity: 1;
 }
+
+.loginContainer {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.loginContainer .login-inner-box {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
